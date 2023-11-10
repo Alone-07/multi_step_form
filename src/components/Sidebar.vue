@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import '../assets/styles/_mixins.scss'
 
-defineProps(['sidebars', 'activeStep'])
+const props = defineProps(['sidebars', 'activeStep'])
 </script>
 
 <template>
   <ul class="sidebar">
-    <li v-for="( value, index) of sidebars" class="sidebar_list">
-      <div class="no_of_steps" :class="{ active: index == activeStep }">{{ index + 1 }}</div>
+    <li v-for="( value, index) of props.sidebars" class="sidebar_list">
+      <div class="no_of_steps" :class="{ active: index == props.activeStep }">{{ index + 1 }}</div>
       <div class="current_step">
         <p class="current_step_text">STEP {{ index + 1 }}</p>
         <p class="current_step_info">{{ value }}</p>
@@ -57,7 +57,7 @@ defineProps(['sidebars', 'activeStep'])
 
 .active {
   background: {
-    color: #fff;
+    color: limegreen;
   }
 
   color: #000;

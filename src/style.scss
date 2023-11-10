@@ -1,0 +1,9 @@
+@use './assets/styles/index' as *;
+
+body {
+  min-height: 100vh;
+  font: {
+    family: $ff;
+    size: $fs;
+  }
+}

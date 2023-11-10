@@ -1,0 +1,41 @@
+// ## Colors
+
+// ### Primary
+
+$Marine_blue: hsl(213, 96%, 18%);
+$Purplish_blue: hsl(243, 100%, 62%);
+$Pastel_blue: hsl(228, 100%, 84%);
+$Light_blue: hsl(206, 94%, 87%);
+$Strawberry_red: hsl(354, 84%, 57%);
+
+// ### Neutral
+
+$Cool_gray: hsl(231, 11%, 63%);
+$Light_gray: hsl(229, 24%, 87%);
+$Magnolia: hsl(217, 100%, 97%);
+$Alabaster: hsl(231, 100%, 99%);
+$White: hsl(0, 0%, 100%);
+
+// ## Typography
+$fs: 16px;
+$ff: Ubuntu;
+$fw_4: 400;
+$fw_5: 500;
+$fw_7: 700;
+
+@font-face {
+  font-family: $ff;
+  src: url(./src/assets/fonts/Ubuntu-Regular.ttf);
+
+}
+
+$s1: 1rem;
+$s2: 2rem;
+$s3: 3rem;
+$s2_5: 2.5rem;
+$s1_5: 1.5rem;
+
+$br_10: 10px;
+$br_25: 25px;
+
+$min_width: min(750px, 90%);

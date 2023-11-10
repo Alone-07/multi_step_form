@@ -57,7 +57,7 @@ const props = defineProps(['sidebars', 'activeStep'])
 
 .active {
   background: {
-    color: limegreen;
+    color: #fff;
   }
 
   color: #000;
